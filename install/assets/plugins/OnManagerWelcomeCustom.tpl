@@ -16,8 +16,8 @@
 Instructions:
 check event:
 OnManagerWelcomePrerender - to activate custom logo - logo url in chunk Welcome_YourLogo
-OnManagerWelcomeHome - to activate last blog entries - change to your blog id in plugin code (line 26)
-OnManagerWelcomeRender  - custom links - example code in chunk Welcome_CustomLinks
+OnManagerWelcomeHome - to activate last social links - links code in chunk Welcome_SocialLinks
+OnManagerWelcomeRender  - custom links - links code in chunk Welcome_CustomLinks
 
 
 */
