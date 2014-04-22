@@ -25,19 +25,21 @@ $e = &$modx->Event;
 $output ='';
 
 switch($e->name) {
+
+		/*OnManagerWelcomeHome - social links */
 	/*OnManagerWelcomePrerender - custom logo */
     case 'OnManagerWelcomePrerender':
      		$output = $modx->getChunk('Welcome_YourLogo');
     break;
 		/*OnManagerWelcomeHome - social links */
     case 'OnManagerWelcomeHome':
-      $output = '<div class="dashboard-block-full"> <div class="sectionHeader"><i class="fa fa-globe"></i> Social<a href="javascript:void(null);" onclick="doHideShow(\'idShowHide8\');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div>
+      $output = '<div class="dashboard-block-full"> <div class="sectionHeader"><i class="fa fa-globe"></i> Social<a href="javascript:void(null);" onclick="doHideShow(\'idShowHide8\');"><i class="fa fa-bars expandbuttn"></i></a></div>
 			<div id="idShowHide8" class="sectionBody">'.$modx->getChunk('Welcome_SocialLinks').' <br style="clear:both;height:1px;margin-top: -1px;line-height:1px;font-size:1px;" /> </div></div>';
 
     break;
 	/*OnManagerWelcomeRender - custom links */
     case 'OnManagerWelcomeRender':
-      $output = '<div class="dashboard-block-full"> <div class="sectionHeader"><i class="fa fa-tachometer"></i> Links<a href="javascript:void(null);" onclick="doHideShow(\'idShowHide9\');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div>
+      $output = '<div class="dashboard-block-full"> <div class="sectionHeader"><i class="fa fa-tachometer"></i> Links<a href="javascript:void(null);" onclick="doHideShow(\'idShowHide9\');"><i class="fa fa-bars expandbuttn"></i></a></div>
 			<div id="idShowHide9" class="sectionBody">'.$modx->getChunk('Welcome_CustomLinks').' <br style="clear:both;height:1px;margin-top: -1px;line-height:1px;font-size:1px;" /> </div></div>';
 
     break;
