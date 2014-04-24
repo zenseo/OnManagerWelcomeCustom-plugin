@@ -17,3 +17,4 @@
 
 <div class="wm_button green"><a href="../" target="_blank"><i class="fa fa-bar-chart-o fa-3x"></i><br />Stats</a></div>
 <div class="wm_button red"><a href="../" target="_blank"><i class="fa fa-envelope-o fa-3x"></i><br />Web Mail</a></div>
+<div class="wm_button orange"><a href="http://forums.modx.com/" target="_blank"><i class="fa fa-comments-o fa-3x"></i><br />Forum</a></div>

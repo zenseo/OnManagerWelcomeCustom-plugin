@@ -33,7 +33,7 @@
 <!--default custom links-->
 <div class="wm_button"><a href="index.php?a=4"><i class="fa fa-file fa-4x"></i><br />New doc</a></div>
 <div class="wm_button"><a href="index.php?a=72"><i class="fa fa-link fa-4x"></i><br />New Link</a></div>
-<div class="wm_button"><a href="index.php?a=71"><i class="fa fa-search fa-4x"></i><br />Search</a></div>
+<div class="wm_button green"><a href="index.php?a=71"><i class="fa fa-search fa-4x"></i><br />Search</a></div>
 <div class="wm_button"><i class="fa fa-ellipsis-v fa-4x"></i></div>
 <div class="wm_button yellow"><a href="index.php?a=17"><i class="fa fa-wrench fa-4x"></i><br />Settings</a></div>
 <div class="wm_button violet"><a href="index.php?a=75"><i class="fa fa-user fa-4x"></i><br />Manager Users</a></div>
@@ -41,8 +41,8 @@
 <!--separator-->
 <div class="wm_button"><i class="fa fa-ellipsis-v fa-4x"></i></div>
 <!---->
-<div class="wm_button green"><a href="../" target="_blank"><i class="fa fa-share-square-o fa-4x"></i><br />Preview</a></div>
+<div class="wm_button green2"><a href="../" target="_blank"><i class="fa fa-share-square-o fa-4x"></i><br />Preview</a></div>
 <!--separator-->
 <div class="wm_button"><i class="fa fa-ellipsis-v fa-4x"></i></div>
 <!---->
-<div class="wm_button red"><a href="index.php?a=8" target="_blank"><i class="fa fa-power-off fa-4x"></i><br />Logout</a></div>
+<div class="wm_button red2"><a href="index.php?a=8" target="_blank"><i class="fa fa-power-off fa-4x"></i><br />Logout</a></div>
