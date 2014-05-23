@@ -1,4 +1,4 @@
-OnManagerWelcomeCustom-plugin RC1
+OnManagerWelcomeCustom-plugin RC2
 =============================
 http://www.tattoocms.it/extras/plugins/onmanagerwelcomecustom-plugin-modx.html
 
