@@ -1,5 +1,6 @@
 OnManagerWelcomeCustom-plugin RC1
 =============================
+http://www.tattoocms.it/extras/plugins/onmanagerwelcomecustom-plugin-modx.html
 
 Plugin to customize MODxFlat and Devo manager themes Dashboard
 
